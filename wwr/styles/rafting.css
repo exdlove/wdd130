@@ -27,8 +27,9 @@ footer {
 
 header {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 200px 1fr;
     align-items: center;
+    padding: 10px;
 }
 
 header img {
@@ -38,12 +39,7 @@ header img {
 nav {
     display: flex;
     justify-content: space-around;
-}
-
-nav a {
-    text-decoration: none;
-    color: #000;
-    padding: 10px;
+    align-items: center;
 }
 
 h1,
@@ -107,4 +103,75 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+}
+
+/* Navigation Links */
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+/* History Section */
+.history {
+    display: grid;
+    grid-template-columns: 1fr 220px 1fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.history h2 {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.history img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Adventure Section */
+.adventures h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adventures {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.adventures figure {
+    text-align: center;
+    width: 150px;
+}
+
+.adventures img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.adventures figcaption {
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+/* Footer Social Media */
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: auto;
 }
