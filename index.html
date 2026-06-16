@@ -1,55 +1,143 @@
 <!DOCTYPE html>
+
 <html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Excellence Yusuf Bassi | WDD 130</title>
+    ```
+    <title>Home | White Water Rafting Adventures</title>
 
     <meta name="description"
-      content="Excellence Yusuf Bassi WDD130 course home page showcasing web development assignments and projects.">
+      content="Experience exciting white water rafting adventures, guided river tours, and unforgettable outdoor experiences.">
 
     <meta name="author" content="Excellence Yusuf Bassi">
 
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/rafting.css">
+    ```
+
 </head>
 
 <body>
 
+    ```
     <header>
+        <img src="images/logo.png" alt="White Water Rafting Logo">
+
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
     <main>
-        <h1>Excellence Yusuf Bassi | WDD 130</h1>
 
-        <img src="images/profile.jpg" alt="Profile picture of Excellence Yusuf Bassi">
+        <section class="hero-home">
 
-        <p>
-            Hello! My name is Excellence Yusuf Bassi and I am from Lagos, Nigeria.
-            I enjoy learning web development, coding, and creating websites.
-            I am excited to improve my HTML and CSS skills in WDD 130.
-        </p>
+            <img src="images/hero.jpg" alt="White Water Rafting Adventure">
+
+            <h1>Experience the Adventure of a Lifetime</h1>
+
+        </section>
+
+        <section class="cta">
+
+            <h2>Ready for Your Next Adventure?</h2>
+
+            <p>
+                Join us for thrilling white water rafting experiences,
+                breathtaking scenery, and unforgettable memories.
+            </p>
+
+            <a href="trips.html" class="cta-button">
+                Explore Our Trips
+            </a>
+
+        </section>
+
+        <section class="newsletter">
+
+            <h2>Join Our Newsletter</h2>
+
+            <form>
+
+                <label for="fullname">Name</label>
+
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email</label>
+
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">
+                    Sign Up Today
+                </button>
+
+            </form>
+
+        </section>
+
+        <section class="home-grid">
+
+            <div>
+
+                <img src="images/adventure-1.jpg" alt="Family rafting adventure">
+
+                <h2>Our Purpose</h2>
+
+                <p>
+                    We provide safe and exciting rafting adventures for
+                    families, friends, and outdoor enthusiasts seeking
+                    memorable experiences.
+                </p>
+
+            </div>
+
+            <div>
+
+                <img src="images/adventure-2.jpg" alt="River rafting tour">
+
+                <h2>What We Offer</h2>
+
+                <p>
+                    From beginner-friendly river trips to challenging
+                    rapids, we offer adventures suitable for all
+                    experience levels.
+                </p>
+
+            </div>
+
+        </section>
+
     </main>
 
-    <aside>
-        <h2>Nigeria</h2>
-
-        <img src="images/nigeria.jpg" alt="Scenery of Nigeria">
+    <footer>
 
         <p>
-            Nigeria is located in West Africa and is known for its rich culture,
-            diverse languages, music, food, and energetic cities like Lagos.
+            ©2026 White Water Rafting Adventures | Excellence Yusuf Bassi
         </p>
-    </aside>
 
-    <footer>
-        <p>©2026 🌴 Excellence Yusuf Bassi 🌴 Lagos, Nigeria</p>
+        <nav class="socialmedia">
+
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+
+        </nav>
+
     </footer>
+    ```
 
 </body>
 

@@ -229,3 +229,77 @@ nav a:hover {
 .contact-form button:hover {
     background-color: var(--secondary-color);
 }
+
+.hero-home {
+    position: relative;
+}
+
+.hero-home img {
+    width: 100%;
+    display: block;
+}
+
+.hero-home h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(11, 79, 108, 0.8);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.cta {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: var(--secondary-color);
+}
+
+.newsletter {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.newsletter form {
+    display: grid;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.newsletter input {
+    padding: 10px;
+}
+
+.newsletter button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.home-grid img {
+    width: 100%;
+    border-radius: 5px;
+}
